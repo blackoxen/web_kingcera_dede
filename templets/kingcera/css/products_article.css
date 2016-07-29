@@ -1,0 +1,154 @@
+@charset "utf-8";
+.main{
+	padding-top: 145px;
+	overflow: hidden;
+	border-bottom:1px solid #efeeea;
+}
+
+.mainImg{
+	height: 350px;
+	width: 1200px;
+	border-top:1px solid #EFEEEA;
+	border-bottom:1px solid #EFEEEA;
+}
+
+.ltBox{
+	width: 800px;
+	min-height: 670px;
+	background: #FFFFCC;
+	float: left;
+	overflow: auto;
+}
+
+.ltBox h1{
+	padding:20px 20px 0;
+	color:#FF780D;
+	text-align: center;
+}
+
+.ltBox .pro_list{
+	padding:20px 20px;
+}
+
+.ltBox .pro_list .pro_item{
+	overflow:auto;
+	padding: 15px 0 10px;
+	border-top:1px solid #8EB73D;
+}
+
+.ltBox .pro_list .pro_item .pro_img{
+	position:relative;
+	float:left;
+}
+
+.ltBox .pro_list .pro_item .pro_img img{
+	border-radius:20px;
+	width:320px;
+	height:205px;
+}
+
+.ltBox .pro_list .pro_item .pro_img span{
+	position:absolute;
+	top: 145px;
+	left: 0;
+	text-align: center;
+	background: rgba(255,255,255,0.8);
+	display: block;
+	padding:6px 0 7px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	min-width: 163px;
+}
+
+.ltBox .pro_list .pro_item .pro_text{
+	float:left;
+	overflow:hidden;
+	text-align:left;
+	padding-left:20px;
+	width:420px;
+	color:#555;
+}
+
+.ltBox .pro_list .pro_item .pro_text h2{
+	color:#000;
+	padding-bottom:8px;
+}
+
+.ltBox .pro_list .pro_item .pro_text p{
+	padding-bottom:5px;
+	font-size: 16px;
+}
+
+.ltBox .pro_list .pro_item .pro_text ul{
+	font-size:15px;
+}
+
+.ltBox .pro_list .pro_item .pro_text .textStrong{
+	font-weight: bold;
+	color:#FF780D;
+}
+
+.rtBox{
+	width: 360px;
+	height: auto;
+	/*background: #900443;*/
+	float: left;
+	padding-left: 40px;
+	padding-top:20px;
+}
+
+.rtBox .gsImg{
+	width: 320px;
+	height: 200px;
+	border-radius:20px;
+}
+
+.rtBox .sub_nav{
+	padding-top:20px;
+}
+
+.rtBox .sub_nav h1{
+	color: #FF780D;
+	height: 45px;
+	line-height: 45px;
+	width: 320px;
+	border-bottom:1px solid rgba(0,0,0,0.3);
+	margin-bottom: 10px;
+}
+
+.rtBox .sub_nav .sub_nav_ul{
+	font-size: 15px;
+}
+
+.rtBox .sub_nav .sub_nav_ul li{
+	height: 25px;
+	line-height: 25px;
+}
+
+.rtBox .sub_nav .sub_nav_ul .active{
+	color: #FF780D;
+	font-size: 18px;
+}
+
+.rtBox .sub_nav .no_active:hover{
+	 color:#FF780D;
+	 text-decoration:underline;
+	 font-size:16px;
+}
+
+.rtBox .logo_min{
+	padding-top: 20px;
+}
+
+.rtBox .sub_contact{
+	padding-top : 20px;
+}
+
+.rtBox .sub_contact{
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.rtBox .sub_contact li > span {
+	font-weight: bold;
+}

@@ -1,0 +1,16 @@
+# 以'#'开始的行，被视为注释. 
+/a/
+/dede/
+/images/
+/include/
+/install/
+/m/
+/member/
+/plus/
+/special/
+
+.project
+index.html
+index.php
+robots.txt
+tags.php

@@ -1,0 +1,10 @@
+$(".proItem").hover(
+	function(){
+		$(this).find(".listArrow").css("background","#FF780D");
+		$(this).find(".proContent").css("background","#FFFFCC");
+	},
+	function(){
+		$(this).find(".listArrow").css("background","#8EB73D");
+		$(this).find(".proContent").css("background","#fff");
+	}
+);

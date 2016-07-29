@@ -1,0 +1,35 @@
+<link rel="stylesheet" type="text/css" href="{dede:cfg_basehost/}/templets/kingcera/css/header.css"/>
+ 	
+<div class="header">	
+	<div class="headBox">
+		<div class="top">
+			<img class="logo" src="{dede:cfg_basehost/}/templets/kingcera/img/logo.png"/>
+			<img class="telImg" src="{dede:cfg_basehost/}/templets/kingcera/img/tel.png"/>
+		</div>
+		
+		<div class="navbar">
+			<ul class="nav_ul1">
+				<li class="nav_lev1">
+					<a href="/">Home</a>
+				</li>
+				
+				{dede:channelartlist typeid='1,2,3,5,4'}
+				<li class="nav_lev1">
+					<a href="{dede:field name='typeurl'/}">{dede:field name='typename'/}</a>
+					<div class="dh">
+						<ul class="nav_ul2">
+							{dede:channel type='son' noself='yes'} 
+							<li class="nav_lev2">
+								<a href="[field:typeurl/]">[field:typename/]</a>
+							</li>
+							{/dede:channel}
+						</ul>
+					</div>
+				</li>
+				{/dede:channelartlist}
+				
+			</ul>
+		</div>
+	</div>
+</div>	
+

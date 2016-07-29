@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="{dede:cfg_basehost/}/templets/kingcera/css/base.css"  />
+		<script type="text/javascript" charset="utf-8" src="{dede:cfg_basehost/}/templets/kingcera/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>   
+    </head>
+    <body>
+    	<!--header:begin-->
+    	{dede:include filename="header.htm"/}
+    	<!--header:over-->
+    	
+    	<link rel="stylesheet" type="text/css" href="{dede:cfg_basehost/}/templets/kingcera/css/article_list.css"/> 	
+    	<div class="container">	
+    		<div class="main">
+				<img id="mainImg" class="mainImg" src="/uploads/images/news/newsbanner.jpg"/>
+				
+				<div class="ltBox">
+					<div class="news_list">
+						{dede:list pagesize='5'}
+						<div class="news_item">
+							<a href="[field:arcurl/]">
+								<h2>[field:title/]</h2>		
+								<div class="news_text">
+									<img src="[field:picname/]" alt="" class="newsImg" />
+									<div class="news_content">
+										<h3>[field:pubdate function="MyDate('20y-m-d',@me)"/]</h3>
+										<p>[field:description function='cn_substr(@me,300)'/]...</p>
+									</div>
+								</div>
+							</a>	
+						</div>	
+						{/dede:list}
+					</div>
+					
+					
+					<div class="dede_pages">
+				   	   <ul class="pagelist">
+				    	{dede:pagelist pagelang='en' listitem="info,index,end,pre,next,pageno,option" listsize="5"/}
+				   	   </ul>
+		    		</div>
+				</div>
+				
+				<!--rtSider:begin-->
+				{dede:include filename="rtSider.htm"/}
+				<!--rtSider:over-->
+    		</div>
+    	</div>
+    	
+		<!--footer:begin-->
+		{dede:include filename="footer.htm"/}
+		<!--footer:over-->
+        
+  		<script src="{dede:cfg_basehost/}/templets/kingcera/js/nav.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>

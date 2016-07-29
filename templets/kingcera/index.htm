@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="{dede:cfg_basehost/}/templets/kingcera/css/base.css"  /> 
+        <script type="text/javascript" charset="utf-8" src="{dede:cfg_basehost/}/templets/kingcera/js/jquery-1.10.2.min.js" ></script>
+    </head>
+    
+    <body>
+        <link rel="stylesheet" type="text/css" href="{dede:cfg_basehost/}/templets/kingcera/css/index.css" />
+    	<link rel="stylesheet" type="text/css" href="{dede:cfg_basehost/}/templets/kingcera/css/banner.css" /> 
+    	
+    	<div class="header">	
+    		<div class="headBox">
+    			<div class="top">
+    				<img class="logo" src="{dede:cfg_basehost/}/templets/kingcera/img/logo.png"/>
+    				<img class="telImg" src="{dede:cfg_basehost/}/templets/kingcera/img/tel.png"/>
+    			</div>
+    			
+    			<div class="navbar">
+    				<ul class="nav_ul1">
+    					<li class="nav_lev1">
+    						<a href="{dede:cfg_basehost/}">Home</a>	
+    					</li>
+    					
+    					{dede:channelartlist typeid='1,2,3,5,4'}
+    					<li class="nav_lev1">
+							<a href="{dede:field name='typeurl'/}">{dede:field name='typename'/}</a>
+    						<div class="dh">
+	    						<ul class="nav_ul2">
+	    							{dede:channel type='son' noself='yes'} 
+	    							<li class="nav_lev2">
+	    								<a href="[field:typeurl/]">[field:typename/]</a>
+	    							</li>
+	    							{/dede:channel}
+	    						</ul>
+    						</div>
+    					</li>
+    					{/dede:channelartlist}
+    					
+    				</ul>
+    			</div>
+    		</div>
+    	</div>	
+
+    	<!--container begin: main(banner & about-news-coop)-->
+    	<div class="container">
+    		<!--main begin-->
+			<div class="main">
+    			<!--banner begin--> 
+    			
+    			<div class="banner" id="banner">
+					<div class="ban_wrapper" id="ban_wrapper">
+						<div class="ban_img"><img id="img" src="{dede:cfg_basehost/}/uploads/images/banner/banner1.jpg" alt="" /></div>
+						<div class="describe_bg">
+							<div class="decb_box">
+								<div class="dscb_lt">
+									<p class="dscb_tag"></p>
+									<p id="dscb_title" class="dscb_title">Onsite Service</p>
+								</div>
+								<div class="dscb_rt">
+									<p id="dscb_txt" class="dscb_txt">Kingcera can provides domestic & international onsite inatallation, technical and maintenance support</p>
+								</div>
+							</div>
+							<div id="dscb_next" class="dscb_next"><a href="javascript:"><img src="{dede:cfg_basehost/}/templets/kingcera/img/next.png"/></a></div>
+						</div>
+					</div>
+					
+					<div class="ban_nav">
+						<div class="nav_box">
+							<div class="nav_pre" id="nav_pre"><!--<img src="img/arrow_l.png"/>--></div>
+							<div class="nav_current" id="nav_current"></div>
+							<div class="nav_thumbs">
+								<ul class="thum_Ul">
+									<li class="thum_Li" id="thum_Li1"><a href="javascript:"><img src="{dede:cfg_basehost/}/uploads/images/banner/banner1.jpg" alt="" class="thum_Img" /></a></li>
+									<li class="thum_Li" id="thum_Li2"><a href="javascript:"><img src="{dede:cfg_basehost/}/uploads/images/banner/banner2.jpg" alt="" class="thum_Img" /></a></li>
+									<li class="thum_Li" id="thum_Li3"><a href="javascript:"><img src="{dede:cfg_basehost/}/uploads/images/banner/banner3.jpg" alt="" class="thum_Img" /></a></li>
+									<li class="thum_Li" id="thum_Li4"><a href="javascript:"><img src="{dede:cfg_basehost/}/uploads/images/banner/banner4.jpg" alt="" class="thum_Img" /></a></li>
+									<li class="thum_Li" id="thum_Li5"><a href="javascript:"><img src="{dede:cfg_basehost/}/uploads/images/banner/banner5.jpg" alt="" class="thum_Img" /></a></li>
+								</ul>
+							</div>
+							<div class="nav_next" id="nav_next"><!--<img src="img/arrow_r.png"/>--></div>
+						</div>
+					</div>
+				</div>
+				
+    			<div class="about">
+    				<img src="{dede:cfg_basehost/}/templets/kingcera/img/aboutkingcera.png" alt="" class="abtImg" />
+    				<div class="abtTxt">
+    					<p>KINGCERA, since its establishment in 1993, has devoted itself in research and development and application of industrial wear resistance ceramic technology. As the largest enterprise engaged in the production of wear resistant ceramic, we focus on the production of wear-resistance ceramic...
+    						<a href="/a/about/index.html" ><span>Read more</span></a>
+    					</p>
+    				</div>
+    			</div>
+    			  			
+    			<div class="news">
+    				<img src="{dede:cfg_basehost/}/templets/kingcera/img/latestnews.png" alt="" class="newsImg" />
+    				<div class="newsList">
+    					<ul>
+    						{dede:arclist row=3 titlelen=80 typeid="5" orderby='hot'}
+    						<li>
+    							<a class="title" href="[field:arcurl/]">
+    								<span class="lab">></span>
+    								[field:title/]
+    								<span class="date">[[field:pubdate function=MyDate('Y-m-d',@me)/]]</span>
+    							</a>
+    						</li>
+    						{/dede:arclist} 
+    					</ul>
+    				</div>
+    			</div>
+    						
+    			<div class="coop">
+    				<img src="{dede:cfg_basehost/}/templets/kingcera/img/cooperative.png" alt="" class="coopImg" />
+    				<!--走马灯-->
+    				<div id="imgBox">  
+						<div id="imgTab">  
+							<div id="tab1">  
+								<a><img src="{dede:cfg_basehost/}/uploads/images/qiye1.png" ></a>  
+								<a><img src="{dede:cfg_basehost/}/uploads/images/qiye2.png"></a>  
+							</div> 
+							
+							<div id="tab2"> 
+								<a><img src="{dede:cfg_basehost/}/uploads/images/qiye1.png"></a>  
+								<a><img src="{dede:cfg_basehost/}/uploads/images/qiye2.png"></a>  
+							</div>  
+						</div>  
+					</div> 
+    			</div>
+    		  		
+    		</div>
+
+    	</div>
+    			
+		<!-- footer --> 
+		{dede:include filename="footer.htm"/} 
+		<!-- footer over --> 
+    		
+    	</div>
+    	<!--footer over-->
+        
+        <!--JS for banner-->
+        <script src="{dede:cfg_basehost/}/templets/kingcera/js/nav.js" type="text/javascript" charset="utf-8"></script>      
+		<script src="{dede:cfg_basehost/}/templets/kingcera/js/banner.js" type="text/javascript" charset="utf-8"></script>
+			
+		<!--JS for 走马灯-->
+		<script>    
+			var speed=20;  
+			var tab=document.getElementById("imgBox");  
+			var tab1=document.getElementById("tab1");  
+			var tab2=document.getElementById("tab2");  
+			tab2.innerHTML=tab1.innerHTML;  
+			function Marquee(){  
+				if(tab2.offsetWidth-tab.scrollLeft<=0)  
+					tab.scrollLeft-=tab1.offsetWidth  
+				else{  
+					tab.scrollLeft++;  
+				}  
+			}  
+			var MyMar=setInterval(Marquee,speed);  
+			tab.onmouseover=function() {clearInterval(MyMar)};  
+			tab.onmouseout=function() {MyMar=setInterval(Marquee,speed)};  
+		</script>  
+    </body>
+</html>
+
+
+
+
+

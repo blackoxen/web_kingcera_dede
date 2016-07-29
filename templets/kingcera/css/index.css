@@ -1,0 +1,189 @@
+@charset "utf-8";
+/*header style*/
+.header{
+	height: 145px;
+	background: url(../img/header_bg.png) 0 100% repeat-x;
+	position: relative;
+	z-index:30;
+	/*left: 0;
+	right: 0;*/
+}
+
+.headBox{
+	margin: 0 auto;
+	width: 1200px;
+
+}
+
+.top{
+	height: 100px;
+	/*background: #EFEEEA;*/
+}
+
+.logo{
+	float:left;
+	margin-top:15px;
+}
+
+.telImg{
+	float:right;
+	margin-top:19px;
+}
+
+/*navbar style*/
+.navbar{
+	position: relative;
+	height: 45px;
+	background:#FF780D;
+}
+
+.nav_lev1{
+	float:left;
+	height: 45px;
+	line-height: 45px;
+	display: inline;
+	font-size:1.4em;
+	/**/color: #fff;
+}
+
+.navbar .nav_ul1 .nav_lev1>a{
+	padding: 0 20px;
+	color: #fff;
+}
+
+.dh{
+	position: relative;
+	float: left;
+	background: #FF780D;
+}
+
+.nav_ul2{
+	display:none;
+	z-index: 20;
+	position:absolute;
+	width: 350px;
+	background-color: rgba(255,255,255,0.8);
+}
+
+.nav_lev2{
+	height: 40px;
+	line-height:40px;
+	text-align: left;
+	border-bottom:1px solid #e6e6e6;
+}
+
+.nav_lev2>a{
+	color:#000;
+	font-weight: 400;
+	padding-left: 20px;
+}
+
+
+.nav_lev2:hover{
+	background: rgba(255,120,13,0.8);
+}
+
+/*main style*/
+.main{
+	border-top:1px solid #EFEEEA;
+}
+
+/*About kingcera*/
+.about{
+	height: 130px;
+	background: url(../img/about_bg.png) 0 100% repeat-x;
+	border-top:20px solid #EFEEEA;
+}
+
+.about .abtImg{
+	float:left;
+	padding-top:45px;
+	padding-left:25px;
+}
+
+.about .abtTxt{
+	float:right;
+	width: 850px;
+	padding-top:26px;
+	padding-right:15px;
+	text-align:left;
+	font-size:16px;
+}
+
+.about .abtTxt span{
+	color:#e85100;
+}
+
+/*Latest news*/
+.news{
+	height: 130px;
+	background: url(../img/about_bg.png) 0 100% repeat-x;
+}
+
+.news .newsImg{
+	float:left;
+	padding-top:45px;
+	padding-left:27px;
+}
+
+.news .newsList{
+	width: 850px;
+	float: right;
+	padding-top:20px;
+	padding-right:15px;
+}
+
+.news .newsList li{
+	text-align: left;
+	border-bottom: 1px dotted #555;
+	font-size: 15px;
+	height: 25px;
+	line-height: 25px;
+}
+
+.news .newsList .lab{
+	padding-right: 10px;
+}
+
+.news .newsList a:hover{
+	color:#E85100;
+	font-size: 15.2px;
+}
+
+.news .newsList .date{
+	float:right;
+}
+
+/*Cooperative Enterprise*/
+.coop{
+	height: 130px;
+	background: url(../img/about_bg.png) 0 100% repeat-x;
+}
+
+.coop .coopImg{
+	float:left;
+	padding-top:35px;
+	padding-left:27px;
+}
+
+#imgBox {
+	float: left;
+	margin-top:30px;
+	margin-left: 128px;  
+	overflow:hidden;  
+	width: 850px; 
+	height: 53px; 
+} 
+ 
+#imgBox img {
+	display: inline; 
+}  
+
+#imgTab {  
+	float: left;  
+	width: 800%;  
+} 
+ 
+#tab1, #tab2 {  
+	float: left;  
+}  

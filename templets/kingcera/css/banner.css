@@ -1,0 +1,130 @@
+
+.ban_wrapper{
+	position:relative;
+	width:1200px;
+	height: 422px;
+	overflow: hidden;
+}
+
+.ban_wrapper .ban_img{
+	position:absolute;
+	z-index: 10;	
+}
+
+.ban_wrapper .describe_bg{
+	position:relative;
+	z-index:11;
+	height:140px;
+	width:1200px;
+	background:rgba(0,0,0,0.7);
+	top:285px;
+}
+
+.ban_wrapper .dscb_lt{
+	float:left;
+	padding-top:35px;
+	padding-left:50px;
+	width: 460px;
+	text-align:left;
+}
+
+.ban_wrapper .dscb_tag{
+	background: #FF780D;
+	height: 20px;
+	width:150px;
+}
+
+.ban_wrapper .dscb_title{
+	font-family: "bodoni mt";
+	font-size:40px;
+	font-weight: bold;
+	color: #FF780D;
+	height:50px;
+	line-height:50px;
+}
+
+.ban_wrapper .dscb_rt{
+	float: left;
+	padding-top:0px;
+	width: 570px;
+	text-align: left;
+	height: 140px;
+	display: table;
+}
+
+.ban_wrapper .dscb_txt{
+	color: #fff;
+	font-size: 20px;
+	display: table-cell;
+	vertical-align:	middle;
+	height: 30px;
+	line-height: 30px;
+}
+
+.ban_wrapper .dscb_next{
+	position:absolute;
+	z-index:13;
+	top:25%;
+	right:50px;
+}
+
+.ban_wrapper .dscb_next img{
+	width: 35px;
+}
+
+.ban_nav{
+	position: relative;
+	border-top:20px solid #efeeea;
+	height: 95px;
+	width:1200px;
+	background: #fff;
+}
+
+.ban_nav .nav_box{
+	margin:0 auto;
+	padding-top: 15px;
+	width: 1050px;
+}
+
+.ban_nav .nav_box .nav_pre{
+	float:left;
+	height: 76px;
+	width: 48px;
+	background: url(../img/arrow_l.png);
+}
+
+.ban_nav .nav_box .nav_pre:hover{
+	background: url(../img/arrow_l_on.png);
+}
+
+.ban_nav .nav_box .nav_current{
+	position:absolute;
+	z-index: 15;
+	width: 180px;
+	height: 65px;
+	border:2px solid #8EB73D;
+	top:13px;
+	left: 126px;
+}
+
+.ban_nav .nav_box .nav_thumbs .thum_Li{
+	float:left;
+	margin: 0 5px;
+}
+
+.ban_nav .nav_thumbs .thum_Img{
+	height: 65px;
+	width: 180px;
+	
+}
+
+.ban_nav .nav_box .nav_next{
+	float: left;
+	height: 76px;
+	width: 48px;
+	background: url(../img/arrow_r.png);
+}
+
+.ban_nav .nav_box .nav_next:hover{
+	background: url(../img/arrow_r_on.png);
+}

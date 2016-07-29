@@ -1,0 +1,1 @@
+<a href="{dede:field name='typeurl'/}" class="ft_nav">{dede:field name='typename'/}</a>

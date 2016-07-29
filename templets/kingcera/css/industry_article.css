@@ -1,0 +1,54 @@
+@charset "utf-8";
+.main{
+	padding-top: 145px;
+	overflow: hidden;
+	background: #FFFFCC;
+	border-bottom:1px solid #EFEEEA;
+}
+
+.mainImg{
+	height: 350px;
+	width: 1200px;
+	border-top:1px solid #EFEEEA;
+	border-bottom:1px solid #EFEEEA;
+}
+
+.main .text{
+	margin:20px 20px 20px 20px;
+	line-height: 30px;
+	font-size: 15px;
+	padding-bottom: 20px;
+	border-bottom:1px solid rgb(204,100,51);
+}
+
+.main .title{
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.main .app .imgList{
+	padding-left: 40px;
+	overflow: auto;
+}
+
+.cell{
+	float: left;
+	height: 240px;
+	width: 200px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	/*background: #E60012;*/
+}
+
+.cell .appImg{
+	height: 200px;
+	width: 200px;
+	border: 1px solid #CC9933;
+}
+
+.cell .appTitle{
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	font-size:15px;
+}

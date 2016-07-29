@@ -1,0 +1,33 @@
+@charset "utf-8";
+.rtBox{
+	width: 360px;
+	height: auto;
+	/*background: #900443;*/
+	float: left;
+	padding-left: 40px;
+	padding-top:20px;
+}
+
+.rtBox .gsImg{
+	width: 320px;
+	height: 200px;
+	border-radius:20px;
+}
+
+.rtBox .logo_min{
+	padding-top: 20px;
+}
+
+.rtBox .sub_contact{
+	padding-top : 20px;
+}
+
+.rtBox .sub_contact{
+	font-size: 15px;
+	height: 25px;
+	line-height: 25px;
+}
+
+.rtBox .sub_contact li > span {
+	font-weight: bold;
+}
