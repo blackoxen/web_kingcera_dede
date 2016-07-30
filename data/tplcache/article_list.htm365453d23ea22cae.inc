@@ -17,5 +17,4 @@ $z[7][4]['filename']="rtSider.htm";
 $z[8]=Array("include","",1673,1710);
 $z[8][4]['filename']="footer.htm";
 $z[9]=Array("cfg_basehost","",1758,1778);
-
 ?>
