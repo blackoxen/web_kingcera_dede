@@ -1,11 +1,11 @@
 <?php
-$z[0]=Array("cfg_basehost","",122,142);
-$z[1]=Array("cfg_basehost","",234,254);
-$z[2]=Array("include","",407,444);
+$z[0]=Array("cfg_basehost","",201,221);
+$z[1]=Array("cfg_basehost","",313,333);
+$z[2]=Array("include","",486,523);
 $z[2][4]['filename']="header.htm";
-$z[3]=Array("cfg_basehost","",528,548);
-$z[4]=Array("include","",2133,2170);
+$z[3]=Array("cfg_basehost","",607,627);
+$z[4]=Array("include","",6597,6634);
 $z[4][4]['filename']="footer.htm";
-$z[5]=Array("cfg_basehost","",2221,2241);
+$z[5]=Array("cfg_basehost","",6685,6705);
 
 ?>

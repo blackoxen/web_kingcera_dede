@@ -1,1 +1,0 @@
-INSERT INTO `homepageset` VALUES('kingcera/index.htm','../index.html','1');

@@ -1,0 +1,704 @@
+DROP TABLE IF EXISTS `dede_addonarticle`;
+
+;
+
+DROP TABLE IF EXISTS `dede_addonimages`;
+
+;
+
+DROP TABLE IF EXISTS `dede_addoninfos`;
+
+;
+
+DROP TABLE IF EXISTS `dede_addonshop`;
+
+;
+
+DROP TABLE IF EXISTS `dede_addonsoft`;
+
+;
+
+DROP TABLE IF EXISTS `dede_addonspec`;
+
+;
+
+DROP TABLE IF EXISTS `dede_admin`;
+
+;
+
+DROP TABLE IF EXISTS `dede_admintype`;
+
+;
+
+DROP TABLE IF EXISTS `dede_advancedsearch`;
+
+;
+
+DROP TABLE IF EXISTS `dede_arcatt`;
+
+;
+
+DROP TABLE IF EXISTS `dede_arccache`;
+
+;
+
+DROP TABLE IF EXISTS `dede_archives`;
+
+;
+
+DROP TABLE IF EXISTS `dede_arcmulti`;
+
+;
+
+DROP TABLE IF EXISTS `dede_arcrank`;
+
+;
+
+DROP TABLE IF EXISTS `dede_arctiny`;
+
+;
+
+DROP TABLE IF EXISTS `dede_arctype`;
+
+;
+
+DROP TABLE IF EXISTS `dede_area`;
+
+;
+
+DROP TABLE IF EXISTS `dede_channeltype`;
+
+;
+
+DROP TABLE IF EXISTS `dede_co_htmls`;
+
+;
+
+DROP TABLE IF EXISTS `dede_co_mediaurls`;
+
+;
+
+DROP TABLE IF EXISTS `dede_co_note`;
+
+;
+
+DROP TABLE IF EXISTS `dede_co_onepage`;
+
+;
+
+DROP TABLE IF EXISTS `dede_co_urls`;
+
+;
+
+DROP TABLE IF EXISTS `dede_diyforms`;
+
+;
+
+DROP TABLE IF EXISTS `dede_dl_log`;
+
+;
+
+DROP TABLE IF EXISTS `dede_downloads`;
+
+;
+
+DROP TABLE IF EXISTS `dede_erradd`;
+
+;
+
+DROP TABLE IF EXISTS `dede_feedback`;
+
+;
+
+DROP TABLE IF EXISTS `dede_flink`;
+
+;
+
+DROP TABLE IF EXISTS `dede_flinktype`;
+
+;
+
+DROP TABLE IF EXISTS `dede_freelist`;
+
+;
+
+DROP TABLE IF EXISTS `dede_homepageset`;
+
+;
+
+DROP TABLE IF EXISTS `dede_keywords`;
+
+;
+
+DROP TABLE IF EXISTS `dede_log`;
+
+;
+
+DROP TABLE IF EXISTS `dede_member`;
+
+;
+
+DROP TABLE IF EXISTS `dede_member_company`;
+
+;
+
+DROP TABLE IF EXISTS `dede_member_feed`;
+
+;
+
+DROP TABLE IF EXISTS `dede_member_flink`;
+
+;
+
+DROP TABLE IF EXISTS `dede_member_friends`;
+
+;
+
+DROP TABLE IF EXISTS `dede_member_group`;
+
+;
+
+DROP TABLE IF EXISTS `dede_member_guestbook`;
+
+;
+
+DROP TABLE IF EXISTS `dede_member_model`;
+
+;
+
+DROP TABLE IF EXISTS `dede_member_msg`;
+
+;
+
+DROP TABLE IF EXISTS `dede_member_operation`;
+
+;
+
+DROP TABLE IF EXISTS `dede_member_person`;
+
+;
+
+DROP TABLE IF EXISTS `dede_member_pms`;
+
+;
+
+DROP TABLE IF EXISTS `dede_member_snsmsg`;
+
+;
+
+DROP TABLE IF EXISTS `dede_member_space`;
+
+;
+
+DROP TABLE IF EXISTS `dede_member_stow`;
+
+;
+
+DROP TABLE IF EXISTS `dede_member_stowtype`;
+
+;
+
+DROP TABLE IF EXISTS `dede_member_tj`;
+
+;
+
+DROP TABLE IF EXISTS `dede_member_type`;
+
+;
+
+DROP TABLE IF EXISTS `dede_member_vhistory`;
+
+;
+
+DROP TABLE IF EXISTS `dede_moneycard_record`;
+
+;
+
+DROP TABLE IF EXISTS `dede_moneycard_type`;
+
+;
+
+DROP TABLE IF EXISTS `dede_mtypes`;
+
+;
+
+DROP TABLE IF EXISTS `dede_multiserv_config`;
+
+;
+
+DROP TABLE IF EXISTS `dede_myad`;
+
+;
+
+DROP TABLE IF EXISTS `dede_myadtype`;
+
+;
+
+DROP TABLE IF EXISTS `dede_mytag`;
+
+;
+
+DROP TABLE IF EXISTS `dede_payment`;
+
+;
+
+DROP TABLE IF EXISTS `dede_plus`;
+
+;
+
+DROP TABLE IF EXISTS `dede_plus_seoinfo`;
+
+;
+
+DROP TABLE IF EXISTS `dede_purview`;
+
+;
+
+DROP TABLE IF EXISTS `dede_pwd_tmp`;
+
+;
+
+DROP TABLE IF EXISTS `dede_ratings`;
+
+;
+
+DROP TABLE IF EXISTS `dede_scores`;
+
+;
+
+DROP TABLE IF EXISTS `dede_search_cache`;
+
+;
+
+DROP TABLE IF EXISTS `dede_search_keywords`;
+
+;
+
+DROP TABLE IF EXISTS `dede_sgpage`;
+
+;
+
+DROP TABLE IF EXISTS `dede_shops_delivery`;
+
+;
+
+DROP TABLE IF EXISTS `dede_shops_orders`;
+
+;
+
+DROP TABLE IF EXISTS `dede_shops_products`;
+
+;
+
+DROP TABLE IF EXISTS `dede_shops_userinfo`;
+
+;
+
+DROP TABLE IF EXISTS `dede_softconfig`;
+
+;
+
+DROP TABLE IF EXISTS `dede_sphinx`;
+
+;
+
+DROP TABLE IF EXISTS `dede_stepselect`;
+
+;
+
+DROP TABLE IF EXISTS `dede_sys_enum`;
+
+;
+
+DROP TABLE IF EXISTS `dede_sys_module`;
+
+;
+
+DROP TABLE IF EXISTS `dede_sys_set`;
+
+;
+
+DROP TABLE IF EXISTS `dede_sys_task`;
+
+;
+
+DROP TABLE IF EXISTS `dede_sysconfig`;
+
+;
+
+DROP TABLE IF EXISTS `dede_tagindex`;
+
+;
+
+DROP TABLE IF EXISTS `dede_taglist`;
+
+;
+
+DROP TABLE IF EXISTS `dede_uploads`;
+
+;
+
+DROP TABLE IF EXISTS `dede_verifies`;
+
+;
+
+DROP TABLE IF EXISTS `dede_vote`;
+
+;
+
+DROP TABLE IF EXISTS `dede_vote_member`;
+
+;
+
+DROP TABLE IF EXISTS `addonarticle`;
+
+;
+
+DROP TABLE IF EXISTS `addonimages`;
+
+;
+
+DROP TABLE IF EXISTS `addoninfos`;
+
+;
+
+DROP TABLE IF EXISTS `addonshop`;
+
+;
+
+DROP TABLE IF EXISTS `addonsoft`;
+
+;
+
+DROP TABLE IF EXISTS `addonspec`;
+
+;
+
+DROP TABLE IF EXISTS `admin`;
+
+;
+
+DROP TABLE IF EXISTS `admintype`;
+
+;
+
+DROP TABLE IF EXISTS `advancedsearch`;
+
+;
+
+DROP TABLE IF EXISTS `arcatt`;
+
+;
+
+DROP TABLE IF EXISTS `arccache`;
+
+;
+
+DROP TABLE IF EXISTS `archives`;
+
+;
+
+DROP TABLE IF EXISTS `arcmulti`;
+
+;
+
+DROP TABLE IF EXISTS `arcrank`;
+
+;
+
+DROP TABLE IF EXISTS `arctiny`;
+
+;
+
+DROP TABLE IF EXISTS `arctype`;
+
+;
+
+DROP TABLE IF EXISTS `area`;
+
+;
+
+DROP TABLE IF EXISTS `channeltype`;
+
+;
+
+DROP TABLE IF EXISTS `co_htmls`;
+
+;
+
+DROP TABLE IF EXISTS `co_mediaurls`;
+
+;
+
+DROP TABLE IF EXISTS `co_note`;
+
+;
+
+DROP TABLE IF EXISTS `co_onepage`;
+
+;
+
+DROP TABLE IF EXISTS `co_urls`;
+
+;
+
+DROP TABLE IF EXISTS `diyforms`;
+
+;
+
+DROP TABLE IF EXISTS `dl_log`;
+
+;
+
+DROP TABLE IF EXISTS `downloads`;
+
+;
+
+DROP TABLE IF EXISTS `erradd`;
+
+;
+
+DROP TABLE IF EXISTS `feedback`;
+
+;
+
+DROP TABLE IF EXISTS `flink`;
+
+;
+
+DROP TABLE IF EXISTS `flinktype`;
+
+;
+
+DROP TABLE IF EXISTS `freelist`;
+
+;
+
+DROP TABLE IF EXISTS `homepageset`;
+
+;
+
+DROP TABLE IF EXISTS `keywords`;
+
+;
+
+DROP TABLE IF EXISTS `log`;
+
+;
+
+DROP TABLE IF EXISTS `member`;
+
+;
+
+DROP TABLE IF EXISTS `member_company`;
+
+;
+
+DROP TABLE IF EXISTS `member_feed`;
+
+;
+
+DROP TABLE IF EXISTS `member_flink`;
+
+;
+
+DROP TABLE IF EXISTS `member_friends`;
+
+;
+
+DROP TABLE IF EXISTS `member_group`;
+
+;
+
+DROP TABLE IF EXISTS `member_guestbook`;
+
+;
+
+DROP TABLE IF EXISTS `member_model`;
+
+;
+
+DROP TABLE IF EXISTS `member_msg`;
+
+;
+
+DROP TABLE IF EXISTS `member_operation`;
+
+;
+
+DROP TABLE IF EXISTS `member_person`;
+
+;
+
+DROP TABLE IF EXISTS `member_pms`;
+
+;
+
+DROP TABLE IF EXISTS `member_snsmsg`;
+
+;
+
+DROP TABLE IF EXISTS `member_space`;
+
+;
+
+DROP TABLE IF EXISTS `member_stow`;
+
+;
+
+DROP TABLE IF EXISTS `member_stowtype`;
+
+;
+
+DROP TABLE IF EXISTS `member_tj`;
+
+;
+
+DROP TABLE IF EXISTS `member_type`;
+
+;
+
+DROP TABLE IF EXISTS `member_vhistory`;
+
+;
+
+DROP TABLE IF EXISTS `moneycard_record`;
+
+;
+
+DROP TABLE IF EXISTS `moneycard_type`;
+
+;
+
+DROP TABLE IF EXISTS `mtypes`;
+
+;
+
+DROP TABLE IF EXISTS `multiserv_config`;
+
+;
+
+DROP TABLE IF EXISTS `myad`;
+
+;
+
+DROP TABLE IF EXISTS `myadtype`;
+
+;
+
+DROP TABLE IF EXISTS `mytag`;
+
+;
+
+DROP TABLE IF EXISTS `payment`;
+
+;
+
+DROP TABLE IF EXISTS `plus`;
+
+;
+
+DROP TABLE IF EXISTS `plus_seoinfo`;
+
+;
+
+DROP TABLE IF EXISTS `purview`;
+
+;
+
+DROP TABLE IF EXISTS `pwd_tmp`;
+
+;
+
+DROP TABLE IF EXISTS `ratings`;
+
+;
+
+DROP TABLE IF EXISTS `scores`;
+
+;
+
+DROP TABLE IF EXISTS `search_cache`;
+
+;
+
+DROP TABLE IF EXISTS `search_keywords`;
+
+;
+
+DROP TABLE IF EXISTS `sgpage`;
+
+;
+
+DROP TABLE IF EXISTS `shops_delivery`;
+
+;
+
+DROP TABLE IF EXISTS `shops_orders`;
+
+;
+
+DROP TABLE IF EXISTS `shops_products`;
+
+;
+
+DROP TABLE IF EXISTS `shops_userinfo`;
+
+;
+
+DROP TABLE IF EXISTS `softconfig`;
+
+;
+
+DROP TABLE IF EXISTS `sphinx`;
+
+;
+
+DROP TABLE IF EXISTS `stepselect`;
+
+;
+
+DROP TABLE IF EXISTS `sys_enum`;
+
+;
+
+DROP TABLE IF EXISTS `sys_module`;
+
+;
+
+DROP TABLE IF EXISTS `sys_set`;
+
+;
+
+DROP TABLE IF EXISTS `sys_task`;
+
+;
+
+DROP TABLE IF EXISTS `sysconfig`;
+
+;
+
+DROP TABLE IF EXISTS `tagindex`;
+
+;
+
+DROP TABLE IF EXISTS `taglist`;
+
+;
+
+DROP TABLE IF EXISTS `uploads`;
+
+;
+
+DROP TABLE IF EXISTS `verifies`;
+
+;
+
+DROP TABLE IF EXISTS `vote`;
+
+;
+
+DROP TABLE IF EXISTS `vote_member`;
+
+;
+

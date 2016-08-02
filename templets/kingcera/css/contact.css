@@ -14,49 +14,81 @@
 
 .ltBox{
 	width: 800px;
-	min-height: 480px;
+	min-height: 760px;
 	background: #FFFFCC;
 	float: left;
 	overflow: auto;
 }
 
 .ltBox .pro_list{
-	padding:30px 20px;
+	padding:20px 20px;
 }
 
 .ltBox  .pro_list h1{
 	color:#FF780D;
 	padding-bottom:20px;
-	margin-bottom:20px;
+	margin-bottom:25px;
 	border-bottom:1px solid #999999;
 }
 
-.ltBox .pro_list .gooleMap{
+.ltBox .employee{
+	padding-bottom:30px;
+}
+
+.ltBox .employee .employeeImg{
+	border-radius: 10px;
+	float: left;
+}
+
+.ltBox .employee .employeeInfo{
+	width:530px;
+	float: left;
+	padding-left: 20px;
+}
+
+.ltBox .employee .employeeInfo .name{
+	font-size: 25px;
+	font-weight: bold;
+	height: 35px;
+	line-height: 35px;
+	color:#333333;
+}
+
+.ltBox .employee .employeeInfo .post{
+	font-size: 16px;
+	font-weight: bold;
+	color: #777777;
+	height: 30px;
+	line-height: 30px;
+}
+
+.ltBox .employee .employeeInfo .telEmail{
+	font-size: 16px;
+	height: 25px;
+	line-height: 25px;
+}
+
+.ltBox .employee .employeeInfo .telEmail img{
+	height: 15px;
+	padding-right: 10px;
+	padding-top: 5px;
+	float: left;
+}
+
+.ltBox .employee .employeeInfo .intr{
+	padding-top:10px;
+}
+
+.ltBox .pro_list .map{
+	border-top:1px solid #999999;
+}
+
+.ltBox .pro_list .map .gooleMap{
 	width: 760px;
 	height: 300px;
 	border: 1px solid #999999;
+	margin-top:25px;
 }
-
-.ltBox .pro_list h2{
-	padding-top:10px;
-	padding-bottom:5px;
-	color:#FF780D;
-}
-
-.ltBox .pro_list li{
-	font-size:14px;
-}
-
-.ltBox .pro_list strong{
-	font-size:16px;
-	font-weight:bold;
-	color: #FF780D;
-}
-
-.ltBox .pro_list span{
-	font-weight:bold;
-}
-
 
 .rtBox{
 	width: 360px;
@@ -71,4 +103,24 @@
 	width: 320px;
 	height: 200px;
 	border-radius:20px;
+}
+
+.rtBox h2{
+	padding-top:20px;
+	padding-bottom:5px;
+	color:#FF780D;
+}
+
+.rtBox  li{
+	font-size:14px;
+}
+
+.rtBox  strong{
+	font-size:16px;
+	font-weight:bold;
+	color: #FF780D;
+}
+
+.rtBox  span{
+	font-weight:bold;
 }
