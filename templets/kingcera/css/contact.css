@@ -75,6 +75,11 @@
 	float: left;
 }
 
+.ltBox .employee .employeeInfo .telEmail>a{
+	color:#0000FF;
+	text-decoration: underline;
+}
+
 .ltBox .employee .employeeInfo .intr{
 	padding-top:10px;
 }
