@@ -49,6 +49,8 @@
 .navbar .nav_ul1 .nav_lev1>a{
 	padding: 0 20px;
 	color: #fff;
+	display: block;
+	height: 45px;
 }
 
 .dh{
