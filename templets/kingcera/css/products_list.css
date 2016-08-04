@@ -36,6 +36,7 @@
 	float:left;
 	height: 160px;
 	width: 320px;
+	border: 1px solid #cccccc;
 }
 
 .ltBox .proItem .proContent .listText{
