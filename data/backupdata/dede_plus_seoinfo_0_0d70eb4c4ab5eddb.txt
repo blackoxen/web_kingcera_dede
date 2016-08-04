@@ -14,3 +14,4 @@ INSERT INTO `dede_plus_seoinfo` VALUES('13','1469003118','23,134,315','0','0','1
 INSERT INTO `dede_plus_seoinfo` VALUES('14','1469081399','23,134,315','0','0','1','0');
 INSERT INTO `dede_plus_seoinfo` VALUES('15','1469405945','22,986,060','0','0','1','0');
 INSERT INTO `dede_plus_seoinfo` VALUES('16','1469867922','22,986,060','0','0','1','0');
+INSERT INTO `dede_plus_seoinfo` VALUES('17','1470277986','22,986,060','0','0','1','0');
