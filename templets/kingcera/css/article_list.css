@@ -31,6 +31,7 @@
 .ltBox .news_list .news_item:hover{
 	background:#FF780D;
 	color:#fff;
+	box-shadow: 2px 2px 2px #ccc;
 }
 
 .ltBox .news_list .news_item .news_text{
