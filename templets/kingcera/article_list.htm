@@ -19,8 +19,8 @@
 				<div class="ltBox">
 					<div class="news_list">
 						{dede:list pagesize='5'}
-						<div class="news_item">
-							<a href="[field:arcurl/]">
+						<a href="[field:arcurl/]">
+							<div class="news_item">							
 								<h2>[field:title/]</h2>		
 								<div class="news_text">
 									<img src="[field:picname/]" alt="" class="newsImg" />
@@ -28,9 +28,9 @@
 										<h3>[field:pubdate function="MyDate('20y-m-d',@me)"/]</h3>
 										<p>[field:description function='cn_substr(@me,300)'/]...</p>
 									</div>
-								</div>
-							</a>	
-						</div>	
+								</div>								
+							</div>
+						</a>
 						{/dede:list}
 					</div>
 					

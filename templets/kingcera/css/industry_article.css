@@ -37,13 +37,35 @@
 	width: 200px;
 	margin-right: 30px;
 	margin-bottom: 20px;
-	/*background: #E60012;*/
 }
+
+.cell .subCell{
+	height: 200px;
+	width: 200px;
+	border: 1px solid #CC9933;
+	overflow: hidden;
+}
+
+.cell .subCell:hover{
+	box-shadow: 2px 2px 2px #999999;
+}
+
 
 .cell .appImg{
 	height: 200px;
 	width: 200px;
-	border: 1px solid #CC9933;
+	transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out; 
+	
+}
+
+.cell .appImg:hover{
+	transform: scale(1.05,1.05);
+	-ms-transform: scale(1.05,1.05);
+	-webkit-transform: scale(1.05,1.05);
+	-moz-transform: scale(1.05,1.05);
 }
 
 .cell .appTitle{

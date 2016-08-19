@@ -30,11 +30,8 @@
 
 .ltBox .news_list .news_item:hover{
 	background:#FF780D;
-}
-
-.ltBox .news_list .news_item h2 a:hover{
 	color:#fff;
-	text-decoration: underline;
+	box-shadow: 2px 2px 2px #ccc;
 }
 
 .ltBox .news_list .news_item .news_text{
